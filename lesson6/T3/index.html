@@ -14,11 +14,12 @@
       img[ alt="Pollution"]{
         border: 5px dashed red;
       }
-      img {
+      img[src$=jpg] {
         margin-left: 50px;
       }
-      [data-description~="even"] {
+      [data-description*="even"] {
         font-size: 24px;
+        background-color: gray;
       }
       [src^="https"] {
         color: green;
