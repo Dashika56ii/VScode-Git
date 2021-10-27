@@ -41,22 +41,21 @@ div {
     height: 2000px;
   }
   .static-parent {
-      position: static;
-     
-  }
-  
-  .relative-parent {
-     position: relative; 
-     top: 20px;
-     left: 40px;
-  }
-  .absolute-parent {
-      position: absolute;
-      bottom: 20px;
-      right: 50px; 
-  }
-  .fixed-parent {
-      position: fixed;
-      bottom: 20px;
-      left: 30px;
-  }
+    position: static;   
+}
+.relative-parent {
+   position: relative; 
+   top: 20px;
+   left: 50px;
+}
+.absolute-parent {
+    position: absolute;
+    left: 50px;
+    right: 20px; 
+    
+}
+.fixed-parent {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
