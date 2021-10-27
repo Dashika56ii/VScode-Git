@@ -44,12 +44,10 @@ div {
       position: static;
      
   }
-  .relative-parent {
-    bottom: 20px;
-     right: 50px; 
-  }
+  
   .relative-parent {
      position: relative; 
+    
   }
   .absolute-parent {
       position: absolute;
