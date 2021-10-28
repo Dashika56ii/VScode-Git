@@ -13,14 +13,33 @@
         header {
             background-color: darkturquoise;
             height: 40px;
+            position: static;
         }
         nav {
             height: 40px;
+            list-style-type: none;
+           
         }
-        .nav-item {
-            float: left;
-            left: 16px;
+        .nav-home {
+            padding-right: 16px;
             color: white;
+            float: left;
+            list-style-type: none;
+            line-height: normal;
+        }
+        .nav-products {
+            padding-right: 16px;
+            color: white;
+            float: left;
+            list-style-type: none; 
+            line-height: normal;
+        }
+        .nav-contacts {
+            padding-right: 16px;
+            color: white;
+            float: left;
+            list-style-type: none;
+            line-height: normal;
         }
         main {
             background-color: beige;
@@ -29,16 +48,49 @@
         .head {
             height: 200px;
             width: 200px;
-            margin: 50%;
             background-color: aquamarine;
+            right: calc(45%);
+            position: fixed;
+         
         }
+        
         .eye_right {
             height: 60px;
             width: 40px;
-            float: right;
+            background-color: brown;
+            position: fixed;
+            right: calc(42%);
+            top:-3px;
         } 
+        .eye_left {
+           height: 60px;
+            width: 40px;
+            background-color: brown;
+            position: fixed;
+            left: calc(37.1%);
+            top:-3px;
+        }
+        .ear_right {
+          border-radius: 30px;
+          top: 80px;
+          right: 40px;
+          background-color: grey;
+          width: 20px;
+          height: 20px;
+          position: absolute;
         
-
+        }
+        .ear_left {
+          border-radius: 30px;
+          top: 80px;
+          left: 40px;
+          background-color: grey;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+        
+        }
+       
 
         
     </style>
@@ -48,9 +100,9 @@
     <header class="header">
       <nav class="navigation">
         <ul class="nav-list">
-          <li class="nav-item">Home</li>
-          <li class="nav-item">Products</li>
-          <li class="nav-item">Contacts</li>
+          <li class="nav-home">Home</li>
+          <li class="nav-products">Products</li>
+          <li class="nav-contacts">Contacts</li>
         </ul>
       </nav>
     </header>
