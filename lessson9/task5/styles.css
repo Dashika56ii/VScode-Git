@@ -23,44 +23,36 @@ nav {
   background-color: beige;
 }
 .head {
+  position: absolute;
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  margin-left: calc(43%);
-  margin-top: calc(43%);
+  top: calc(50%-100px);
+  left: calc(50%-100px);
 }
 
-.ear_right {
+.ear {
+  position: absolute;
   height: 60px;
   width: 40px;
   background-color: brown;
-  position: relative;
-  bottom: 60px;
-  right: 40px;
+  top: -60px; 
 }
-.ear_left {
-  height: 60px;
-  width: 40px;
-  background-color: brown;
-  position: relative;
-  bottom: 120px;
-  left: 200px;
-}
+ 
 .eye_right {
+  position: absolute;
   border-radius: 30px;
   background-color: grey;
   width: 30px;
   height: 30px;
-  position: relative;
-  bottom: 40px;
-  left: 120px;
+  right: 40px;
+  bottom: 100px;
 }
 .eye_left {
+  position: absolute;
   border-radius: 30px;
   background-color: grey;
   width: 30px;
   height: 30px;
-  position: relative;
-  bottom: 70px;
-  left: 40px;
+  bottom: 100px;
 }
