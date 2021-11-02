@@ -2,41 +2,49 @@ header {
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
-  top: 0;
+  z-index: 2;
   width: 100%;
-}
-nav {
-  height: 40px;
-  list-style-type: none;
-}
-.nav-item {
-  margin-right: 16px;
-  height: 40px;
-  color: white;
-  float: left;
-  list-style-type: none;
-  line-height: 50%;
 }
 
 .content {
   height: 5000px;
   background-color: beige;
 }
+.nav-list {
+  margin: 0;
+ line-height: 40px;
+  list-style-type: none;
+}
+.nav-item {
+  margin-left: 16px;
+  color: white;
+  float: left;
+}
 .head {
   position: absolute;
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  top: calc(50%-100px);
-  left: calc(50%-100px);
+  top: calc(45%);
+  left: calc(45%);
 }
 
-.ear {
+.ear_right {
   position: absolute;
   height: 60px;
   width: 40px;
   background-color: brown;
   top: -60px; 
+  right: 200px;
+
+}
+.ear_left {
+  position: absolute;
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  top: -60px; 
+  right: -40px;
 }
  
 .eye_right {
@@ -55,4 +63,5 @@ nav {
   width: 30px;
   height: 30px;
   bottom: 100px;
+  left: 40px;
 }
