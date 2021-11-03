@@ -25,12 +25,13 @@ footer {
 }
 .navigation {
     margin: 0;
+    padding: 0;
     list-style-type: none; 
     display: flex;
-  
+    
 }
 .navigation__item {
-    margin-right: 10px;
+    margin-right: 16px;
 }
 .page {
     display: flex;
@@ -52,10 +53,20 @@ footer {
 .news {
      width: 200px;
      background-color: grey;
+     
 }
 .news_item {
     list-style-type: none;
+    margin-bottom: 16px;
+
+
 }
 span {
     margin: auto;
+}
+.tema {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 16px;
 }
