@@ -52,22 +52,24 @@ footer {
 
 .news {
      width: 200px;
-     background-color: grey;
-     
-}
-.news_item {
-    list-style-type: none;
-    margin-bottom: 16px;
-    height: 40px;
-
-
-}
-span {
-    margin: auto;
+     background-color: grey;  
 }
 .tema {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 16px;
+    margin-top: 16px;
+    height: 40px;
+}
+.linia {
+    margin: 0;
+    padding: 0;
+}
+.news_item {
+    list-style-type: none;
+    margin: 16px;
+    height: 40px;
+}
+span {
+    margin: auto;
 }
