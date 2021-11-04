@@ -5,9 +5,18 @@ header {
     display: flex;
     justify-content: center;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 .article {
     margin: 8px;
     padding: 16px;
+    width: 300px;
     background-color: bisque;
+    flex-basis: auto;
+    flex-grow: 1;
+
 }
 
