@@ -2,6 +2,7 @@
     margin: 16px;
     border-bottom: 1px dotted black;
     display: inline-block;
+    visibility: hidden;
 }
 .tooltip {
     background-color: grey;
@@ -11,5 +12,5 @@
     bottom: -40;
     position: absolute;
     top: 40px;
-    left: 14px;
+    left: 16px;
 }
