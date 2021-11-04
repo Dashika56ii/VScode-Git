@@ -1,26 +1,35 @@
-* {
-    box-sizing: border-box;
-}
 
 .articles {
-   display: flex;
-   height: 100px;
-   width: 150px;
-   background-color: beige;
-   padding: 16px;
-}
-.visible-text {
-    visibility: visible;
-}
-.cropped {
-   overflow: hidden;
-}
-.both-scrolls {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .visible-text {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+  }
+  .cropped {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+    overflow: hidden;
+  }
+  .both-scrolls {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
     overflow: scroll;
-}
-.vertical-scroll {
-    overflow: auto;   
-}
-.scroll {
-     cursor: all-scroll;
-}
+    cursor: all-scroll;
+  }
+  .vertical-scroll {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+    overflow: auto;
+    cursor: all-scroll;
+  }
+  
