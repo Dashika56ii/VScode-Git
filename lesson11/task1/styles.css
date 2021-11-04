@@ -1,0 +1,14 @@
+.text {
+    margin: 16px;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+}
+.tooltip {
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    bottom: -40;
+    display: block;
+
+}
