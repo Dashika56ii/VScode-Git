@@ -61,11 +61,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-top: 16px;
-    height: 40px;
+   
 }
 .linia {
     margin: 0;
     padding: 0;
+    height: 40px;
   
 }
 .news_item {
