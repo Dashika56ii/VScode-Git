@@ -1,13 +1,12 @@
 .gallery {
-    display: flex;
-    cursor: all-scroll;
+  display: flex;
+  cursor: all-scroll;
 }
 .thumb {
-    margin: 8px;
-    cursor: all-scroll;
-    flex-shrink: 0;
-
+  margin: 8px;
+  cursor: all-scroll;
+  flex-shrink: 0;
 }
-div{
-    overflow: auto;
+div {
+  overflow: auto;
 }
