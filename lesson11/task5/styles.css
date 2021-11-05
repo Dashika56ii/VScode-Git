@@ -1,6 +1,6 @@
 div {
   display: flex;
-  overflow: auto;
+  overflow: scroll;
   cursor: all-scroll;
 }
 
