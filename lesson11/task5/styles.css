@@ -1,5 +1,6 @@
 .gallery {
     display: flex;
+    cursor: all-scroll;
 }
 .thumb {
     margin: 8px;
@@ -7,6 +8,6 @@
     flex-shrink: 0;
 
 }
-img {
-    overflow: scroll;
+div{
+    overflow: auto;
 }
