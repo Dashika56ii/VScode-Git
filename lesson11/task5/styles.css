@@ -4,4 +4,9 @@
 .thumb {
     margin: 8px;
     cursor: all-scroll;
+    flex-shrink: 0;
+
+}
+img {
+    overflow: scroll;
 }
