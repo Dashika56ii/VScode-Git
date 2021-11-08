@@ -34,7 +34,7 @@
 .menu-list:hover {
     background-color: ghostwhite;
 }
-.menu-item:hover{
+.menu-item{
     padding: 16px;
 }
 .dropdown:hover .menu-list {
