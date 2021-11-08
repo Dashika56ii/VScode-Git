@@ -1,27 +1,29 @@
 * {
-  box-sizing: border-box;
-  margin: 16px;
-}
-.dropdown {
-  position: relative;
-  cursor: pointer;
-  margin: 16px;
+    box-sizing: border-box;
 }
 .menu-button {
-  padding: 16px;
-  background-color: darkgreen;
-  opacity: 0.8;
-  font-size: 16px;
-  color: white;
+    position: relative;
+    padding: 16px;
+    display: inline-block;
+    background-color: darkgreen;
+    opacity: 0.8;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
 }
 .menu-button:hover {
   opacity: 1;
 }
+.dropdown {
+    margin: 16px;
+  }
 .menu-list {
   display: none;
 }
 .menu-list {
   position: absolute;
+  margin: 0;
   padding: 0;
   background-color: lightcyan;
   color: black;
