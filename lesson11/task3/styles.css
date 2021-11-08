@@ -2,8 +2,10 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-.dropdown {
+div {
     margin: 16px;
+    display: block;
+    
   }
 .menu-button {
   position: relative;
