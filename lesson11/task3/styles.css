@@ -2,12 +2,10 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-div {
+.dropdown{
     margin: 16px;
-    display: block;
-    
   }
-span.menu-button {
+span {
   position: relative;
   padding: 16px;
   display: inline-block;
