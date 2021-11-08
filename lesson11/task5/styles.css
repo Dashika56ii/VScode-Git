@@ -1,9 +1,9 @@
 div {
   display: flex;
-  overflow: scroll;
 }
 
 .thumb {
   margin: 8px;
   cursor: all-scroll;
+  overflow: scroll;
 }
