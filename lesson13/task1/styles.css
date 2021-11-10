@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    height: 500px;
+    width: 300px;
+    background-color: blue;
+    background-image: url(nature.png);
+    background-position: center;
+    background-size: cover;
+    
+
+}
