@@ -1,24 +1,23 @@
 .image {
-  display: block;
-  margin: auto;
-  max-width: 100%;
+    margin: auto;
+    display: block;
+    max-width: 100%;
 }
 .image-button {
-  position: absolute;
-  top: calc(50% - 180px);
-  left: calc(50% - 90px);
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  background-color: bisque;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 700;
-  filter: opacity(0.5);
-  cursor: pointer;
+    position: absolute;
+    top: calc(50% - 187px);
+    left: calc(50% - 100px);
+    background-color: bisque;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 50px;
+    filter: opacity(0.5);
 }
 .image-button:hover {
- filter: opacity(1);
-
+    filter: opacity(1);
 }
+
