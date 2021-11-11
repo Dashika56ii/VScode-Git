@@ -1,13 +1,12 @@
-body {
+html {
     font-size: 18px;
 }
-h2 {  
+.properties-list__item { 
+    padding: 8px; 
     line-height: 32px;
-
 }
-.properties-list__item {
+.properties-list {
     color: #f39;
     font-size: 24px;
-    padding: 8px;
     list-style-type: none;
 }
