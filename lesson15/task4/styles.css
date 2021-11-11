@@ -5,10 +5,11 @@
     margin: auto;
     display: block;
     max-width: 100%;
+
 }
 .image-button {
     position: absolute;
-    top: calc(50% - 166.5px);
+    top: calc(50% - 160px);
     left: calc(50% - 100px);
     background-color: bisque;
     width: 200px;
