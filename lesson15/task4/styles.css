@@ -1,9 +1,14 @@
-.image-container {
-  box-sizing: border-box;
+* {
+  box-sizing: border-box
+}
+.image {
+    display: block;
+    max-width: 100%;
+    margin: 150px auto;
 }
 .image-button {
   position: absolute;
-  top: calc(30% - 25px);
+  top: calc(50% - 25px);
   left: calc(50% - 100px);
   width: 200px;
   height: 50px;
@@ -14,13 +19,9 @@
   background-color: bisque;
   text-align: center;
   opacity: 0.5;
-  cursor: pointer;
-}
-.image {
-  display: block;
-  max-width: 100%;
-  margin: auto;
+  
 }
 .image-button:hover {
   opacity: 1;
+  cursor: pointer;
 }
