@@ -1,5 +1,6 @@
 *{
     line-height: 60px;
+    margin-top: 1px;
 }
 input[type="checkbox"] {
   visibility: hidden;
