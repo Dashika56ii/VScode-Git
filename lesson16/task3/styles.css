@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    line-height: 60px;
 }
 input[type="checkbox"] {
   visibility: hidden;
@@ -24,6 +25,5 @@ input[type="checkbox"] {
   background-color: #006400;
 }
 body {
-  margin-top: 16px;
   display: inline-block;
 }
