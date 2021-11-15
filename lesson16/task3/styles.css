@@ -21,6 +21,4 @@ input[type="checkbox"] {
 .checkbox input:checked + .checkmark {
   background-color: #006400;
 }
-body {
-    margin: 10px;
-}
+
