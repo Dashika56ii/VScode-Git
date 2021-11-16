@@ -1,6 +1,11 @@
+* {
+    box-sizing: content-box;
+}
 body {
+  margin: 0;
+  padding: 0;
   background-color: bisque;
-  box-sizing: border-box;
+  font-family: monospace;
 }
 main {
   display: flex;
@@ -22,7 +27,6 @@ main {
 }
 .form-title {
   text-align: center;
-  font-family: monospace;
   text-transform: uppercase;
 }
 .form-input {
@@ -38,7 +42,8 @@ main {
   border: 3px solid #ff0000;
 }
 .submit-button {
-  width: 296px;
+  font-size: 16px;
+  width: 282px;
   height: 32px;
   background-color: #ff7f50;
   margin-top: 16px;
