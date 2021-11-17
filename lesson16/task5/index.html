@@ -24,7 +24,7 @@
           />
         </div>
         <div class="form-control">
-            <input type="checkbox"  name="agree" disabled/>
+            <input type="checkbox"  name="agree"/>
         </div>
         <div class="form-control">
             <input type="checkbox" name="like" checked/>
@@ -80,8 +80,8 @@
         <div>
             <textarea
             name="story"
-            minlength="5"
-            maxlength="30"
+            rows="5 "
+            cols="30"
             placeholder="A longtime ago..."
             ></textarea> 
        </div>
@@ -103,8 +103,9 @@
          type="radio" 
          name="language"
          value="css"
+         checked
         />
-        <label for="language">CSS</label>
+        <label for="language" >CSS</label>
         <input 
         type="radio" 
         name="language"
@@ -122,7 +123,7 @@
       <div>
         <select>
          <option name="framework" value="react">React</option>
-         <option name="framework" selected value="jquery">jQuery</option>
+         <option name="framework" value="jquery" selected >jQuery</option>
          <option name="framework" value="bootstrap">Bootstrap</option>
         </select>
       </div>
