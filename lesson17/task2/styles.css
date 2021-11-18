@@ -1,7 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 table {
   width: 500px;
   margin: 16px;
-  box-sizing: border-box;
+ 
 }
 table,
 th,
@@ -11,7 +14,7 @@ td {
 }
 th,
 td {
-  padding: 8px;
+  padding: 4x;
   text-align: right;
   line-height: 40px;
 }
