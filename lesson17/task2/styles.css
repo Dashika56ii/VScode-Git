@@ -1,9 +1,7 @@
-* {
-  box-sizing: border-box;
-}
 table {
   width: 500px;
   margin: 16px;
+  box-sizing: border-box;
 }
 table,
 th,
