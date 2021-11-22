@@ -1,0 +1,53 @@
+.rect {
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    position: absolute;
+    border-radius: 2px;
+    animation: moving 2s, blinking 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: 49%;
+    margin-top: 25px;
+}
+@keyframes moving {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: 70px;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25%;
+}
+
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+}
+.spinner-text:nth-child(1) {
+  animation-timing-function: linear;
+}
+
+
+
