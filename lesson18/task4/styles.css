@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.block {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: coral;
+    animation: ease, move 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes ease {
+    from {
+        top: -100px;
+    }
+    to {
+        margin-top:calc(50vh - 50px);
+    }
+}
+@keyframes move {
+    from {
+        top: -100px;
+    }
+    to {
+        margin-top:calc(50vh - 50px);
+    }
+}
+
