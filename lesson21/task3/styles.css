@@ -43,12 +43,14 @@ html {
 .units-list {
     line-height: 1.75em;
     margin-top: 0;
+    
 }
 
 .section__header {
   font-size: 5vw;
   text-align: center;
   margin-top: 50px;
+  padding-top: 0;
 }
 .css-units {
   color: #8b0000;
