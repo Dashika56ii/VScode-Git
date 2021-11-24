@@ -42,9 +42,10 @@ html {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
-  line-height: 1.75em;
 }
-
+.units-list {
+    line-height: 1.75em;
+  }
 .section__header {
   font-size: 5vw;
   text-align: center;
@@ -62,7 +63,7 @@ html {
 }
 .nav-list-item {
   background-color: #808080;
-  width: 90%;
+  width: 95%;
   height: 2em;
   margin-bottom: 0.5em;
   color: white;
