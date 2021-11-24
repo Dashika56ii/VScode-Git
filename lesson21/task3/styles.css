@@ -39,7 +39,6 @@ html {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
-  margin-top: 0;
 }
 .units-list {
     line-height: 1.75em;
@@ -48,7 +47,7 @@ html {
 .section__header {
   font-size: 5vw;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 45px;
 }
 .css-units {
   color: #8b0000;
