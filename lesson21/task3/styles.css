@@ -22,7 +22,7 @@ html {
   display: flex;
   justify-content: center;
   position: absolute;
-  margin-top: auto;
+  bottom: 0;
   width: 100%;
   background-color: #e5e5e5;
   padding: 0.5em;
@@ -42,6 +42,7 @@ html {
 }
 .units-list {
   line-height: 1.75em;
+  
 }
 .section__header {
   font-size: 5vw;
@@ -53,6 +54,7 @@ html {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
+  margin-top: 20px;
 }
 .nav-list {
   padding: 0;
