@@ -57,14 +57,14 @@ html {
 .nav-list {
   padding: 0;
   list-style-type: none;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .nav-list-item {
   background-color: #808080;
   height: 2em;
   margin-bottom: 0.5em;
-  flex-wrap: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .nav-list-link {
   color: white;
