@@ -33,16 +33,18 @@ html {
   padding: 0.5em;
   width: 20%;
 }
+.news {
+    max-width: 20%;
+}
 .section {
   
   justify-content: center;
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
-}
-.units-list {
   line-height: 1.75em;
 }
+
 .section__header {
   font-size: 5vw;
   text-align: center;
@@ -54,12 +56,13 @@ html {
   font-weight: 700;
 }
 .nav-list {
-  padding: 0;
+   padding: 0;
   list-style-type: none;
+  
 }
 .nav-list-item {
   background-color: #808080;
-  width: 100%;
+  width: 90%;
   height: 2em;
   margin-bottom: 0.5em;
   color: white;
@@ -67,10 +70,11 @@ html {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+ 
   .nav-list-link {
   width: 100%;
   color: white;
   text-decoration: none;
   padding-left: 0.5em;
   line-height: 2em;
-}
+  } 
