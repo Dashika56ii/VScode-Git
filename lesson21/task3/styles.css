@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 main {
-  display: flex;
+    display: flex;
 }
+
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,7 +23,7 @@ html {
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: 0;
+  bottom: -80px;
   width: 100%;
   background-color: #e5e5e5;
   padding: 0.5em;
@@ -32,23 +33,21 @@ html {
   justify-content: center;
   padding: 0.5em;
   width: 20%;
-}
-.news {
-    max-width: 20%;
+  min-height: 100vh;
 }
 .section {
-  
   justify-content: center;
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
 }
 .units-list {
-    line-height: 1.75em;
-  }
+  line-height: 1.75em;
+}
 .section__header {
   font-size: 5vw;
   text-align: center;
+  margin-top: 40px;
 }
 .css-units {
   color: #8b0000;
@@ -57,9 +56,8 @@ html {
   font-weight: 700;
 }
 .nav-list {
-   padding: 0;
+  padding: 0;
   list-style-type: none;
-  
 }
 .nav-list-item {
   background-color: #808080;
@@ -71,12 +69,11 @@ html {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
- 
-  .nav-list-link {
-  width: 100%;
+
+.nav-list-link {
   color: white;
   text-decoration: none;
   padding-left: 0.5em;
   line-height: 2em;
   padding-right: 0.5em;
-  } 
+}
