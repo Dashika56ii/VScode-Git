@@ -22,6 +22,7 @@ html {
   display: flex;
   justify-content: center;
   position: absolute;
+  margin-top: auto;
   width: 100%;
   background-color: #e5e5e5;
   padding: 0.5em;
