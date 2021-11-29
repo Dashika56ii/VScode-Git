@@ -99,6 +99,7 @@ img {
   }
   .news {
      float: left;
+     margin-top: -600px;
      width: 100%;
   }
 }
