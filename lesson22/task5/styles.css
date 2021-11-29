@@ -85,7 +85,7 @@ img {
     max-width: 100%;
   }
   .section__header {
-    margin-top: -700px;
+    margin-top: -650px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -97,11 +97,14 @@ img {
     float: left;
     width: 80%;
   }
+  .news {
+      width: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
-   main {
-       display: flex;
-   } 
+  main {
+    display: flex;
+  }
   .navigation,
   .news {
     justify-content: center;
@@ -109,6 +112,6 @@ img {
   }
   .section {
     justify-content: center;
-    width: 60%
-}
+    width: 60%;
+  }
 }
