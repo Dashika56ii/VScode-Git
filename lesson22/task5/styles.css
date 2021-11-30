@@ -81,9 +81,9 @@ img {
   .section {
     max-width: 100%;
   }
-  .news {
+  .news {;
     max-width: 100%;
-    top: -1000px;
+    top: 0px;
   }
   .section__header {
     margin-top: -665px;
