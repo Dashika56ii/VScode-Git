@@ -90,6 +90,9 @@ img {
   .news {
     float: left;
   }
+  img {
+    min-width: 100%;
+   }
 }
 @media screen and (min-width: 1200px){
     main {
@@ -102,7 +105,5 @@ img {
       width: 60%;
       margin-top: 0;
     }
-    img {
-     width: 100%;
-    }
+   
 }
