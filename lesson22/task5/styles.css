@@ -83,7 +83,7 @@ img {
   }
   .news {
     max-width: 100%;
-    margin-top: auto;
+    
   }
   .section__header {
     margin-top: -665px;
@@ -100,16 +100,17 @@ img {
   }
   .news {
      float: left;
-     margin-top: -90px;
+     top: auto;
      width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   main {
-    display: flex;
+     display: flex;
   }
   .navigation,
   .news {
+    margin: auto;
     justify-content: center;
     width: 20%;
   }
