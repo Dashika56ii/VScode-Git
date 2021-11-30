@@ -46,7 +46,6 @@ html {
   font-size: 1.125em;
   font-weight: 700;
   min-height: 85vh;
-  
 }
 .nav-list {
   padding: 0;
@@ -84,23 +83,23 @@ img {
   }
   .section {
     width: 80%;
-    margin-top: -766px;
+    margin-top: -765px;
     float: right;
   }
   .news {
-   float: left;
+    float: left;
   }
 }
-@media screen and (min-width: 1200px){
-    main {
-      display: flex;
-    }
-    .navigation, .news {
-      width: 20%;
-    }
-    .section {
-      width: 60%;
-      margin-top: 0;
-    }
-   
+@media screen and (min-width: 1200px) {
+  main {
+    display: flex;
   }
+  .navigation,
+  .news {
+    width: 20%;
+  }
+  .section {
+    width: 60%;
+    margin-top: 1px;
+  }
+}
