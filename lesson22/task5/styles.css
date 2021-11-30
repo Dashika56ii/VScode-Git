@@ -27,11 +27,13 @@ html {
 .navigation,
 .news {
   max-width: 100%;
+  min-width: 100%;
   padding: 0.5em;
   min-height: 85vh;
 }
 .section {
   max-width: 100%;
+  min-width: 100%;
   margin-top: -690px;
   padding: 0.5em;
   font-size: 1.25em;
