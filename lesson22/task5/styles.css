@@ -28,7 +28,7 @@ html {
 .news {
   max-width: 100%;
   padding: 0.5em;
-  max-height: 85vh;
+  height: 85vh;
 }
 .section {
   margin-top: -690px;
@@ -45,7 +45,7 @@ html {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-  max-height: 85vh;
+  height: 85vh;
 }
 .nav-list {
   padding: 0;
