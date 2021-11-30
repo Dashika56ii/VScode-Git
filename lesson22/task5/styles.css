@@ -98,8 +98,9 @@ img {
     width: 80%;
   }
   .news {
+    position: absolute;
+    top: 0px;
     float: left;
-    top: -100px;
     width: 100%;
   }
 }
