@@ -91,3 +91,15 @@ img {
     float: left;
   }
 }
+@media screen and (min-width: 1200px){
+    main {
+      display: flex;
+    }
+    .navigation, .news {
+      width: 20%;
+    }
+    .section {
+      width: 60%;
+      margin-top: 0;
+    }
+}
