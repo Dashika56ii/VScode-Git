@@ -83,6 +83,7 @@ img {
   }
   .news {
     max-width: 100%;
+    top: auto;
     
   }
   .section__header {
