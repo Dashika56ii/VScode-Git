@@ -39,6 +39,7 @@ html {
 .section__header {
   font-size: 5vw;
   text-align: center;
+  height: 100%;
 }
 .css-units {
   color: #8b0000;
@@ -85,7 +86,7 @@ img {
     width: 80%;
     margin-top: -765px;
     float: right;
-    height: 100%;
+   
   }
   .news {
     float: left;
