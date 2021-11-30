@@ -26,13 +26,11 @@ html {
 }
 .navigation,
 .news {
-  max-width: 100%;
   padding: 0.5em;
-  height: 85vh;
+  min-height: 85vh;
 }
 .section {
-  max-width: 100%;
-  margin-top: -690px;
+  top: -690px;
   padding: 0.5em;
   font-size: 1.25em;
 }
@@ -46,7 +44,7 @@ html {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-  height: 85vh;
+  min-height: 85vh;
 }
 .nav-list {
   padding: 0;
@@ -81,6 +79,7 @@ img {
 @media screen and (min-width: 600px) {
   .navigation {
     width: 20%;
+    float: left;
   }
   .section {
     width: 80%;
@@ -105,6 +104,6 @@ img {
   .section {
     justify-content: center;
     width: 60%;
-    margin-top: 0px;
+    top: 0px;
   }
 }
