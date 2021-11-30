@@ -26,7 +26,7 @@ html {
 .navigation,
 .news {
   width: 100%;
-  min-height: 85vh;
+  height: 85vh;
 }
 .section {
   margin-top: -700px;
@@ -42,7 +42,7 @@ html {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-  min-height: 85vh;
+  height: 85vh;
 }
 .nav-list {
   padding: 0;
