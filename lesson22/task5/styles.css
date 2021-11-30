@@ -74,7 +74,6 @@ html {
   line-height: 2em;
 }
 img {
-  width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -90,9 +89,6 @@ img {
   .news {
     float: left;
   }
-  img {
-    width: 100%;
-   }
 }
 @media screen and (min-width: 1200px){
     main {
