@@ -26,7 +26,7 @@ html {
 }
 .navigation,
 .news {
-  max-width: 100%;
+  width: 100%;
   padding: 0.5em;
   height: 85vh;
 }
@@ -82,21 +82,14 @@ img {
     width: 20%;
   }
   .section {
+    margin-top: -765px;
     width: 80%;
     float: right;
   }
-  .section__header{
-    margin-top: -30px;
-  }
-
   .news {
     float: left;
     width: 100%;
   }
-img {
-  max-width: 100vw;
-  max-height: 100vh;
-}
 }
 @media screen and (min-width: 1200px) {
   main {
