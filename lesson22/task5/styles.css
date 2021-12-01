@@ -74,7 +74,6 @@ html {
 }
 img {
   width: 100%;
-  height: auto;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -86,15 +85,16 @@ img {
     width: 80%;
     margin-top: -765px;
     float: right;
+    display: block;
+    height: 100%;
   }
   .news {
     float: left;
     width: 100%;
   }
-  img {
-    display: block;
-    
-  }
+img {
+  min-width: 100%;
+}
 }
 @media screen and (min-width: 1200px) {
   main {
