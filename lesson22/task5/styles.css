@@ -102,8 +102,11 @@ img {
   }
   .section {
     width: 60%;
-    height: 100%;
     margin-top: 0;
+  }
+  img {
+    max-height: 100%;
+    max-width: 100%;
   }
 }
 
