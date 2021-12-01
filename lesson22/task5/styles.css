@@ -74,6 +74,7 @@ html {
 }
 img {
   width: 100%;
+  height: auto;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -91,7 +92,7 @@ img {
     width: 100%;
   }
   img {
-    height: 186.20px;
+    display: block;
     
   }
 }
