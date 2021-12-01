@@ -102,7 +102,8 @@ img {
   }
   .section {
     width: 60%;
-    margin-top: auto;
+    height: 100%;
+    margin-top: 0;
   }
 }
 
