@@ -95,11 +95,9 @@ img {
   }
   .navigation,
   .news {
-    justify-content: center;
     width: 20%;
   }
   .section {
-    justify-content: center;
     width: 60%;
     margin-top: 0px;
   }
