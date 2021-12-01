@@ -31,11 +31,12 @@ html {
   height: 85vh;
 }
 .section {
-  margin-top: -690px;
+  margin-top: 0;
   padding: 0.5em;
   font-size: 1.25em;
 }
 .section__header {
+  margin-top: -690px;
   font-size: 5vw;
   text-align: center;
   
@@ -83,11 +84,12 @@ img {
   }
   .section {
     width: 80%;
-    margin-top: -765px;
     float: right;
-    display: block;
-    height: 100%;
   }
+  .section__header{
+    margin-top: 50px;
+  }
+
   .news {
     float: left;
     width: 100%;
