@@ -85,6 +85,7 @@ img {
     width: 80%;
     margin-top: -765px;
     float: right;
+    max-height: 100%;
    
   }
   .news {
@@ -104,10 +105,6 @@ img {
     justify-content: center;
     width: 60%;
     margin-top: 0;
-  }
-  img {
-    justify-content: center;
-    height: 187px;
   }
 
 }
