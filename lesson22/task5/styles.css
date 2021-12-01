@@ -94,11 +94,11 @@ html {
 }
 @media screen and (min-width: 1200px) {
   body {
-    flex-direction: column;
     min-height: 100vh;
   }
   main {
     display: flex;
+    flex: 1;
   }
   .navigation,
   .news {
