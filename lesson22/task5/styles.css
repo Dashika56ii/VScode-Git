@@ -103,6 +103,7 @@ img {
   .section {
     width: 60%;
     margin-top: 0;
+    padding: 0;
   }
   img {
     height: auto;
