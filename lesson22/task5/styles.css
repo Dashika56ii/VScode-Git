@@ -27,7 +27,7 @@ html {
 .navigation,
 .news {
   padding: 0.5em;
-  min-height: 85vh;
+  height: 85vh;
 }
 .section {
   padding-left: 0.5em;
@@ -44,7 +44,7 @@ html {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-  min-height: 85vh;
+  height: 85vh;
 }
 .nav-list {
   padding: 0;
