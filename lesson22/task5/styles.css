@@ -101,13 +101,10 @@ img {
     width: 20%;
   }
   .section {
+    justify-content: center;
     width: 60%;
     margin-top: 0;
   }
-  .section img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+
 }
 
