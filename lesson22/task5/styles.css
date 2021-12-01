@@ -7,6 +7,11 @@ html {
   font-size: 16px;
   height: 100%; 
 }
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 .header {
   display: flex;
   flex-grow: 1;
@@ -93,12 +98,9 @@ html {
   }
 }
 @media screen and (min-width: 1200px) {
-  body {
-    min-height: 100vh;
-  }
+
   main {
     display: flex;
-    flex: 1;
   }
   .navigation,
   .news {
