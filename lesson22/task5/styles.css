@@ -119,10 +119,10 @@ main {
   .news {
     width: 100%;
     position: absolute;
-    margin-top: 600px;
+    margin-top: 690px;
   }
   .banner {
-    width: 100%;
+    flex: 1;
   }
 }
 
