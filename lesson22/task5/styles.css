@@ -19,7 +19,6 @@ main {
 }
 .header {
   display: flex;
-  flex-grow: 1;
   width: 100%;
   justify-content: center;
   color: white;
@@ -127,7 +126,6 @@ main {
     width: 100%;
   }
   .news {
-    flex-direction: column;
     margin: auto;
     width: 20%;
     margin-right: 0;
