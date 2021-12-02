@@ -123,9 +123,11 @@ main {
   }
   .banner {
     min-width: 100%;
-
-    
   }
+  .units-list {
+   margin-top: auto;
+    
+}
 }
 
 @media screen and (min-width: 1200px) {
