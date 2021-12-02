@@ -125,9 +125,8 @@ main {
     min-width: 100%;
   }
   .units-list {
-   margin-top: auto;
-    
-}
+    margin-top: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -139,18 +138,19 @@ main {
   }
   .section {
     margin: auto;
-    margin-top: -765px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 240px;
     width: 60%;
   }
   .section__header {
     width: 100%;
   }
   .news {
+    display: flex;
     margin: auto;
     width: 20%;
-    margin-right: 0;
-    margin-top: -750px;
+    margin-left: 950px;
   }
-  
 }
-
