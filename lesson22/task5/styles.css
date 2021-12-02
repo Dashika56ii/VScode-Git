@@ -104,18 +104,22 @@ main {
     width: 20%;
   }
   .section {
-    margin: auto;
-    margin-top: -765px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: auto;
     width: 80%;
-    margin-right: 0;
+    margin-left: 180px;
   }
   .section__header {
     width: 100%;
+    justify-content: center;
   }
   .news {
     width: 100%;
+    position: relative;
+    margin-top: 0;
   }
-  
 }
 
 @media screen and (min-width: 1200px) {
