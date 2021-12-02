@@ -35,11 +35,14 @@ main {
 }
 .navigation,
 .news {
-  max-width: 100%;
+  width: 100%;
   padding: 0.5em;
   min-height: 85vh;
 }
 .section {
+  flex-direction: column;
+  position: absolute;
+  margin-top: 150px;
   width: 100%;
   padding: 0.5em;
   font-size: 1.25em;
