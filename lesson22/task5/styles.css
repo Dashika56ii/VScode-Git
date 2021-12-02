@@ -42,7 +42,7 @@ main {
 .section {
   flex-direction: column;
   position: absolute;
-  margin-top: 150px;
+  margin-top: 160px;
   width: 100%;
   padding: 0.5em;
   font-size: 1.25em;
