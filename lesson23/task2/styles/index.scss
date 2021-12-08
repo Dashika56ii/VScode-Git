@@ -28,9 +28,16 @@ body {
     background-color: #c47;
   }
 }
-
-@media screen and (orientation: portrait) {
-    body{
+@media screen and (orientation: landscape){
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (orientation: portrait){
+    .container {
+        display: flex;
         flex-direction: column;
     }
 }
+    
